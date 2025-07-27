@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ClassCrack/static/css/main.59fd2f37.css",
+    "main.js": "/ClassCrack/static/js/main.cda7ae5c.js",
+    "static/media/logo.png": "/ClassCrack/static/media/logo.8b93fed9f0c3594c3bac.png",
+    "static/media/qr.png": "/ClassCrack/static/media/qr.732612ca4851cd532716.png",
+    "index.html": "/ClassCrack/index.html",
+    "main.59fd2f37.css.map": "/ClassCrack/static/css/main.59fd2f37.css.map",
+    "main.cda7ae5c.js.map": "/ClassCrack/static/js/main.cda7ae5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59fd2f37.css",
+    "static/js/main.cda7ae5c.js"
+  ]
+}
