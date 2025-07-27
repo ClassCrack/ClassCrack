@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+.App {
+  padding: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-bottom: 1px solid #444;
+}
+
+.brand h1 {
+  font-size: 2.5rem;
+  color: #00e6e6;
+  margin-bottom: 0.2rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.subtagline {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: auto;
+  border-bottom: 1px solid #333;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00ffff;
+}
+
+/* Intro */
+.intro p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Pricing Cards */
+.pricing-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #222;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h3 {
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #ddd;
+}
+
+.custom-note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #999;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00e6e6;
+  color: #000;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00cccc;
+}
+
+/* QR Code */
+.qr {
+  margin: 2rem auto;
+  display: block;
+  max-width: 200px;
+  border: 3px solid #00e6e6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* How It Works */
+ol {
+  color: #ccc;
+  line-height: 1.7;
+  padding-left: 1.2rem;
+}
+
+ol li {
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+.testimonial-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.testimonial {
+  background-color: #1a1a1a;
+  padding: 1.2rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-style: italic;
+  color: #ddd;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  color: #999;
+}
+
+/* FAQ */
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+
+.faq-item h4 {
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+  color: #bbb;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+.cta p {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0.5rem 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
